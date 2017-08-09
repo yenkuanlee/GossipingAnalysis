@@ -27,7 +27,7 @@ content0,pid = getLastPage("Gossiping")
 
 #print content0
 
-for k in range(100):
+for k in range(1000):
     content = getPage("Gossiping",pid-k)
     tmp = content.split("<div class=\"r-ent\">")
     #tmp = content.split("<div class=\"title\">")
